@@ -1,5 +1,4 @@
 let db;
-
 const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded =  event => {
@@ -10,7 +9,8 @@ request.onupgradeneeded =  event => {
 request.onsuccess =  event => {
   db = event.target.result;
   if (navigator.onLine) {
-    checkDatabase();
+
+    updateDatabase();
   }
 };
 
@@ -24,7 +24,7 @@ const saveRecord = record => {
   store.add(record);
 }
 
-const checkDatabase = () => {
+const updateDatabase = () => {
   const transaction = db.transaction(["pending"], "readwrite");
   const store = transaction.objectStore("pending");
   const getAll = store.getAll();
@@ -49,4 +49,4 @@ const checkDatabase = () => {
   };
 }
 
-window.addEventListener("online", checkDatabase);
+window.addEventListener("online", updateDatabase);
