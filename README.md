@@ -30,7 +30,7 @@
 
   ## Demonstration
 
-  View a live demonstration here: https://fast-anchorage-29235.herokuapp.com/.
+  Access the live application here: https://fast-anchorage-29235.herokuapp.com/.
 
   #### Screenshot
 
