@@ -1,11 +1,11 @@
 
-  ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/bdcoelho) 
-  ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/bdcoelho) 
+  ![Code Count](https://img.shields.io/github/languages/count/bdcoelho/budget-tracker) 
+  ![Main Code Base](https://img.shields.io/github/languages/top/bdcoelho/budget-tracker) 
   ![License](https://img.shields.io/badge/license-MIT-blue) 
   ![Version](https://img.shields.io/badge/version-1.0-red) 
-  ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/bdcoelho) 
-  ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/bdcoelho) 
-  ![Repo Size](https://img.shields.io/github/repo-size/bdcoelho/bdcoelho)
+  ![Last Commit](https://img.shields.io/github/last-commit/bdcoelho/budget-tracker) 
+  ![Open Issues](https://img.shields.io/github/issues-raw/bdcoelho/budget-tracker) 
+  ![Repo Size](https://img.shields.io/github/repo-size/bdcoelho/budget-tracker)
 
   # Welcome to Budget Tracker
 
